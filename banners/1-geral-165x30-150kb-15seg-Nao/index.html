@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>BannerBolt</title>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="ad.size" content="width=165, height=30">
+
+
+</head>
+
+<body style="margin:0; padding: 0;">
+    <div style="cursor:pointer" id="click">
+        <div class="palco"
+            style="width:165px; height:30px; position: relative; overflow: hidden; cursor: pointer; border: 0px solid #dfdfdf; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; background:#ffffff;"
+            id="palco"><img id="ws_144" src="images/ws_144.png"
+                style="position: absolute; left: 0px; top: 0px; width: 165px; height: 30px; display:none" /><img
+                id="ws_159" src="images/ws_159.png"
+                style="position: absolute; left: 0px; top: 38px; width: 61.705478668213px; height: 33px; display:none" /><img
+                id="ws_158" src="images/ws_158.png"
+                style="position: absolute; left: 8px; top: 9px; width: 149px; height: 17px; display:none" /><img
+                id="ws_31006" src="images/ws_31006.png"
+                style="position: absolute; left: 0px; top: 0px; width: 165px; height: 30px; display:none" /><img
+                id="ws_149" src="images/ws_149.png"
+                style="position: absolute; left: 10px; top: 40px; width: 61.705478668213px; height: 33px; display:none" /><img
+                id="ws_150" src="images/ws_150.png"
+                style="position: absolute; left: 14.782653808594px; top: 6.4300003051758px; width: 134.16156005859px; height: 18.010000228882px; display:none" /><img
+                id="ws_31008" src="images/ws_31008.png"
+                style="position: absolute; left: 0px; top: 0px; width: 165px; height: 30px; display:none" /><img
+                id="ws_154" src="images/ws_154.png"
+                style="position: absolute; left: 148px; top: 7px; width: 17px; height: 8px; display:none" /><img
+                id="ws_155" src="images/ws_155.png"
+                style="position: absolute; left: 98px; top: 6px; width: 36px; height: 19px; display:none" /><img
+                id="ws_156" src="images/ws_156.png"
+                style="position: absolute; left: 26px; top: 11px; width: 57px; height: 9px; display:none" /><img
+                id="ws_153" src="images/ws_153.png"
+                style="position: absolute; left: 0px; top: 18px; width: 20px; height: 7px; display:none" /></div>
+    </div>
+    <script type="text/javascript">
+        var clickTag = "https://google.com";
+        document.getElementById("click").addEventListener("click", function () {
+            window.open(window.clickTag);
+        });
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function (event) {
+            const banner = {
+                "bannerHeight": "30",
+                "bannerWidth": "165",
+                "frames": [
+                    {
+                        "elementsData": [
+                            {
+                                "layerId": "ws_144",
+                                "x": 0,
+                                "y": 0,
+                                "delay": 0,
+                                "in": "scale_out",
+                                "out": "none",
+                                "startTime": 0,
+                                "endTime": 3.8287560581583,
+                                "width": 165,
+                                "height": 30
+                            }, {
+                                "layerId": "ws_159",
+                                "x": 0,
+                                "y": 38,
+                                "delay": 0.4,
+                                "in": "scale_in",
+                                "out": "opacity",
+                                "startTime": 0,
+                                "endTime": 3.8287560581583,
+                                "width": 61.705478668213,
+                                "height": 33
+                            }, {
+                                "layerId": "ws_158",
+                                "x": 8,
+                                "y": 9,
+                                "delay": 0,
+                                "in": "scale_in",
+                                "out": "opacity",
+                                "startTime": 0,
+                                "endTime": 3.8287560581583,
+                                "width": 149,
+                                "height": 17
+                            },
+                        ]
+                    },
+
+                    {
+                        "elementsData": [
+                            {
+                                "layerId": "ws_31006",
+                                "x": 0,
+                                "y": 0,
+                                "delay": 0,
+                                "in": "none",
+                                "out": "none",
+                                "startTime": 3.8287560581583,
+                                "endTime": 9.0823909531502,
+                                "width": 165,
+                                "height": 30
+                            }, {
+                                "layerId": "ws_149",
+                                "x": 10,
+                                "y": 40,
+                                "delay": 0,
+                                "in": "none",
+                                "out": "opacity",
+                                "startTime": 3.8287560581583,
+                                "endTime": 9.0823909531502,
+                                "width": 61.705478668213,
+                                "height": 33
+                            }, {
+                                "layerId": "ws_150",
+                                "x": 14.782653808594,
+                                "y": 6.4300003051758,
+                                "delay": 0,
+                                "in": "bottom",
+                                "out": "opacity",
+                                "startTime": 3.8287560581583,
+                                "endTime": 9.0823909531502,
+                                "width": 134.16156005859,
+                                "height": 18.010000228882
+                            },
+                        ]
+                    },
+
+                    {
+                        "elementsData": [
+                            {
+                                "layerId": "ws_31008",
+                                "x": 0,
+                                "y": 0,
+                                "delay": 0,
+                                "in": "none",
+                                "out": "none",
+                                "startTime": 9.0823909531502,
+                                "endTime": 12,
+                                "width": 165,
+                                "height": 30
+                            }, {
+                                "layerId": "ws_154",
+                                "x": 148,
+                                "y": 7,
+                                "delay": 0.8,
+                                "in": "right",
+                                "out": "none",
+                                "startTime": 9.0823909531502,
+                                "endTime": 12,
+                                "width": 17,
+                                "height": 8
+                            }, {
+                                "layerId": "ws_155",
+                                "x": 98,
+                                "y": 6,
+                                "delay": 0.4,
+                                "in": "scale_in",
+                                "out": "none",
+                                "startTime": 9.0823909531502,
+                                "endTime": 12,
+                                "width": 36,
+                                "height": 19
+                            }, {
+                                "layerId": "ws_156",
+                                "x": 26,
+                                "y": 11,
+                                "delay": 0,
+                                "in": "scale_in",
+                                "out": "none",
+                                "startTime": 9.0823909531502,
+                                "endTime": 12,
+                                "width": 57,
+                                "height": 9
+                            }, {
+                                "layerId": "ws_153",
+                                "x": 0,
+                                "y": 18,
+                                "delay": 0.6,
+                                "in": "left",
+                                "out": "none",
+                                "startTime": 9.0823909531502,
+                                "endTime": 12,
+                                "width": 20,
+                                "height": 7
+                            },
+                        ]
+                    },
+                ]
+
+            }
+            const bannerWidth = parseInt(banner.bannerWidth);
+            const bannerHeight = parseInt(banner.bannerHeight);
+            masterTimeline = gsap.timeline({
+                paused: false,
+                repeat: 0,
+                defaults: { ease: "power3.out" },
+            });
+            banner.frames.forEach((frame, index) => {
+
+                frame.elementsData.forEach((layer) => {
+
+                    const start = parseFloat(layer.startTime.toFixed(1)) + layer.delay;
+                    const end = parseFloat(layer.endTime.toFixed(1));
+
+                    const durationAnimDefaultIn = 1;
+                    const durationAnimDefaultOut = 0.8;
+                    // Configura as animações no masterTimeline
+
+                    const w = layer.width;
+                    const h = layer.height;
+                    const l = banner.frames.length;
+                    const d = parseFloat(layer.delay.toFixed(1));
+
+                    const newEnd = (w === bannerWidth && h === bannerHeight && layer.out === "none" && index < (l - 1) ? end + 2 : end);
+
+                    masterTimeline
+                        .set(`#${layer.layerId}`, { display: "block", transformOrigin: "50% 50%" }, start) // Garante que o elemento esteja visível
+                        .fromTo(
+                            `#${layer.layerId}`,
+                            {
+                                opacity: layer.in === "opacity" || layer.in != "none" ? 0 : 1,
+                                x: layer.in === "left" ? -50 : layer.in === "right" ? 50 : 0,
+                                y: layer.in === "top" ? -50 : layer.in === "bottom" ? 50 : 0,
+                                scale: layer.in === "scale_in" ? 0.5 : layer.in === "scale_out" ? 1.5 : 1,
+                            },
+                            {
+                                opacity: 1,
+                                y: 0,
+                                x: 0,
+                                scale: 1,
+                                duration: layer.in === "none" ? 0.01 : durationAnimDefaultIn
+                            },
+                            start
+                        )
+                        .to(
+                            `#${layer.layerId}`,
+                            {
+                                opacity: layer.out === "opacity" || layer.out != "none" ? 0 : 1,
+                                x: layer.out === "left" ? -50 : layer.out === "right" ? 50 : 0,
+                                y: layer.out === "top" ? -50 : layer.out === "bottom" ? 50 : 0,
+                                scale: layer.out === "scale_in" ? 0.5 : layer.out === "scale_out" ? 1.5 : 1,
+                                duration: layer.out === "none" ? 0.01 : durationAnimDefaultOut
+                            },
+                            end - durationAnimDefaultOut
+                        )
+                        .set(`#${layer.layerId}`, { display: index < (l - 1) ? "none" : "block" }, newEnd);
+                });
+            });
+            masterTimeline.play();
+        });
+    </script>
+</body>
+
+</html>
